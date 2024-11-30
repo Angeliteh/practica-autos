@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Inventario de Carros</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <h1>Inventario de Carros</h1>
+  <div class="container">
+    <div class="info-panel">
+      <h3>Información del Vehículo</h3>
+      <div class="info-item">
+        <label>Marca:</label>
+        <span id="marca-texto">Ford</span>
+      </div>
+      <div class="info-item">
+        <label>Modelo:</label>
+        <span id="modelo-texto">Bronco Sport</span>
+      </div>
+      <div class="info-item">
+        <label>Año:</label>
+        <span id="anio-texto">2023</span>
+      </div>
+      <div class="info-item">
+        <label>Puertas:</label>
+        <span id="puertas-texto">4</span>
+      </div>
+      <div class="info-item">
+        <label>Precio Desde:</label>
+        <span id="precio-desde-texto">732,000</span>
+      </div>
+      <div class="info-item">
+        <label>Precio Hasta:</label>
+        <span id="precio-hasta-texto">2,275,000</span>
+      </div>
+    </div>
+
+    <div class="image-container">
+      <img id="car-image" src="images/ford_focus.png" alt="Imagen del Vehículo">
+    </div>
+
+    <div class="sliders">
+      <label for="marca-slider">Seleccionar Marca:</label>
+      <input type="range" id="marca-slider" min="0" max="2" value="0">
+      <label for="modelo-slider">Seleccionar Modelo:</label>
+      <input type="range" id="modelo-slider" min="0" max="2" value="0">
+    </div>
+  </div>
+
+  <footer>
+    <p>Autor: <strong>Juan Angel Payan Espinoza</strong></p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
